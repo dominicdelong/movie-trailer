@@ -6,17 +6,31 @@
        display: block;
     }
     
-  /* Diagnostic Styling. Delete When Done. */
-  body:before {
-       background: yellow;
-       content: "Mobile Size";
-  }
+
+    h1{
+        font-size: 4em;
+        padding-top: 35px
+    }
+    
+    .column{
+        font-size: 13px;
+        padding-top: 15px
+    }
+    
+    
     
 }
 
 /* Tablet:  768px = 160em */
 @media screen and (min-width: 48em)  {
     
+    h1{
+        font-size: 8em;
+    }
+    
+    .column{
+        font-size: 15px
+    }
     
     // RWD Grid
     main {
@@ -30,22 +44,21 @@
         width: 50%;
     }
     
-  /* Diagnostic Styling. Delete When Done. */
-  body:before {
-       background: yellow;
-       content: "Tablet Size";
-  }
 
 }
 
 /* Desktop: 1280px = 80em */
 @media screen and (min-width: 80em) { 
     
+    h1{
+        font-size: 9em;
+        margin-bottom: -30px;
+    } 
     
-  /* Diagnostic Styling. Delete When Done. */
-  body:before {
-       background: yellow;
-       content: "Desktop Size";
-  }
+    .column{
+        font-size: 20px;
+        padding-top: 0;
+    }
+
 
 }
