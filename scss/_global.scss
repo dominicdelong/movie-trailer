@@ -11,13 +11,23 @@ h1{
     font-weight: 700;
     display: flex;
     justify-content: center;
-    font-size: 7em;
-    color: $primary-color
+    font-size: 8em;
+    color: $primary-color;
+   
+}
+// nav Bar
+.navbar {
+  max-width: 740px;
+  margin: 0 auto;
+  display: flex;
 }
 
-.char1{
-    font-size: 2em;
+.column {
+  margin: 10px;
+  flex-grow: 1;
+  flex-shrink: 1;     
 }
+
 // Video Player Styling
 video {
     max-width: 100%;
