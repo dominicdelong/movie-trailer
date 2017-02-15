@@ -2,9 +2,10 @@
 
 // Color Palette
 $primary-color: #4cbf58;
-$secondary-color: purple;
+$secondary-color: #b8c6cc;
 
 // Typography
+
 h1{
     font-family: termina, sans-serif;
     font-style: normal;
@@ -13,24 +14,67 @@ h1{
     justify-content: center;
     font-size: 8em;
     color: $primary-color;
-    
-   
+    flex-wrap: wrap;
+    margin-top: -45px;
+    margin-bottom: 0;
 }
+
+.char1{
+    color: snow
+}
+
+// body
+body{
+    background: #6b797f;
+}
+
+
 // nav Bar
 .navbar {
   max-width: 740px;
   margin: 0 auto;
   display: flex;
+  font-family: termina, sans-serif;
+  font-style: normal;
+  font-weight: 500;    
+  text-decoration: none;
+  margin-top: -35px
 }
 
 .column {
   margin: 10px;
   flex-grow: 1;
-  flex-shrink: 1;     
+  flex-shrink: 1;
+  font-size: 20px;    
 }
+a{
+    text-decoration: none;
+    color: $secondary-color
+}
+
+
+
+p{
+font-family: termina, sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+color: snow;
+line-height: 25px
+}
+
+
 
 // Video Player Styling
 video {
     max-width: 100%;
     width: 100%;
+}
+
+.mejs__time-total {
+    background: $primary-color;
+}
+
+.mejs__time {
+    color: $primary-color;
 }
